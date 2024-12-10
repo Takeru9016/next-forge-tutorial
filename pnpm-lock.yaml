@@ -565,8 +565,8 @@ importers:
         specifier: ^2.13.1
         version: 2.13.1
       '@liveblocks/react':
-        specifier: ^2.13.1
-        version: 2.13.1(react@19.0.0)
+        specifier: ^2.13.2
+        version: 2.13.2(react@19.0.0)
       '@repo/env':
         specifier: workspace:*
         version: link:../env
@@ -2632,14 +2632,20 @@ packages:
   '@liveblocks/client@2.13.1':
     resolution: {integrity: sha512-lID7zLeqHWJxmrFaUGWE23ItG78ox6xAz9lSVQV7vqjJFyDisivE+toJ7OKTViRftqvO4s7HgqMNh7PMmUrFKw==}
 
+  '@liveblocks/client@2.13.2':
+    resolution: {integrity: sha512-SvOPpLfS9a9HChelHaPFOR33VoICcU43em0wDoaARzQzj0f6SUnkdAdwKKh8Yrr8Eqd1Zf4MYuYlftRxiZNbQg==}
+
   '@liveblocks/core@2.13.1':
     resolution: {integrity: sha512-pSb46I/Uvo5NkIR5G4Gc74mPh1xjyok5uyaIO7eFX4E/zBZWWK/XEIgufTlDS9yqlLWW78XdJL2OSI5pK5+7iw==}
+
+  '@liveblocks/core@2.13.2':
+    resolution: {integrity: sha512-oqEzYYMT1u2WkkKkiTGrdVTK4AWBTx0HUbnYW9YV0nHMNZpyGtpHkjA1K3wiHxnuDE8Mo85VngVwN+0IkcpuMg==}
 
   '@liveblocks/node@2.13.1':
     resolution: {integrity: sha512-eEHrJe4mB4qF1Sv0GAQv7+Ec5de1W4SxfF0StpKxLC4T+8ZTJLoEatTrwQVP7cBXiDGAbdcJL7NPRaWPI6Xzzg==}
 
-  '@liveblocks/react@2.13.1':
-    resolution: {integrity: sha512-UeJO6Vu5pbxOUiWKx7+OmfmDnXfqV9VJ5hmDiCHryojibM67xOnIwRpY7lvediEUtTU/U2230kXr5QfpaWmX7A==}
+  '@liveblocks/react@2.13.2':
+    resolution: {integrity: sha512-I5xKVz+H7Y+4C5bxEZnai6foOmPYsK9d5zF1nxhF5M2hi4xmKcBIsg+aSd7tLpEIIrPbQ2zozSgJObICHfokmA==}
     peerDependencies:
       react: ^16.14.0 || ^17 || ^18 || ^19 || ^19.0.0-rc
 
@@ -11687,7 +11693,13 @@ snapshots:
     dependencies:
       '@liveblocks/core': 2.13.1
 
+  '@liveblocks/client@2.13.2':
+    dependencies:
+      '@liveblocks/core': 2.13.2
+
   '@liveblocks/core@2.13.1': {}
+
+  '@liveblocks/core@2.13.2': {}
 
   '@liveblocks/node@2.13.1':
     dependencies:
@@ -11698,10 +11710,10 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@liveblocks/react@2.13.1(react@19.0.0)':
+  '@liveblocks/react@2.13.2(react@19.0.0)':
     dependencies:
-      '@liveblocks/client': 2.13.1
-      '@liveblocks/core': 2.13.1
+      '@liveblocks/client': 2.13.2
+      '@liveblocks/core': 2.13.2
       react: 19.0.0
       use-sync-external-store: 1.2.2(react@19.0.0)
 
